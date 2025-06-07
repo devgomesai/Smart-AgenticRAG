@@ -29,7 +29,7 @@ It implements a structured RAG pipeline with distinct phases—**retrieval**, **
 
 ```bash
 git clone https://github.com/gomesjonathan99/Smart-AgenticRAG.git
-cd Smart-AgenticRAG-using-LangGraph-
+cd Smart-AgenticRAG
 ````
 
 ### 🔐 Environment Setup
