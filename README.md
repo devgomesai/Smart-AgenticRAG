@@ -1,4 +1,3 @@
-<img src="graph.png" align="right" width="300" alt="Agentic RAG Flowchart"/>
 
 <p align="center">
   <h1 align="center">🤖 Smart-AgenticRAG (using LangGraph)</h1>
