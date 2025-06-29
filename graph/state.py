@@ -4,4 +4,4 @@ class GraphState(TypedDict):
     question: str
     generation: str
     web_search: bool
-    docs: List [str]
+    docs: List[str]

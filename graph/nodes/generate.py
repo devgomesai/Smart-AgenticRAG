@@ -1,5 +1,4 @@
 from typing import Any, Dict
-
 from graph.chains.generations import chain
 from graph.state import GraphState
 
