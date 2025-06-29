@@ -29,6 +29,9 @@ It implements a structured RAG pipeline with distinct phases—**retrieval**, **
 ```bash
 git clone https://github.com/gomesjonathan99/Smart-AgenticRAG.git
 cd Smart-AgenticRAG
+pip install uv
+uv venv
+.venv\Scripts\activate
 ````
 
 ### 🔐 Environment Setup
@@ -36,7 +39,8 @@ cd Smart-AgenticRAG
 Create a `.env` file in the root directory and add:
 
 ```env
-LANGCHAIN_API_KEY=your_langchain_api_key
+LANGCHAIN_API_KEY=your-langchain-api-key-here
+OPENAI_API_KEY=your-openai-api-key-here
 LANGCHAIN_PROJECT=agentic-rag
 LANGCHAIN_TRACING_V2=true
 TAVILY_API_KEY=your_tavily_api_key
@@ -51,7 +55,7 @@ LLM="gpt-3.5-turbo"
 ### ▶️ Running the App
 
 ```bash
-python main.py
+uv run  main.py
 ```
 
 ---
